@@ -1,0 +1,24 @@
+.badge{
+    top: 10px;
+    right: 20px;
+    font-size: 13px;
+}
+
+/*CARDS*/
+
+.card{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+#cards:hover{
+    background-color: #97ce4c;
+    color: white;
+    box-shadow: 5px 5px 20px rgba(54, 18, 1, 0.391);
+    transform: translateY(-3%);
+}
