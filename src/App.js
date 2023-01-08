@@ -5,7 +5,6 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Characters from "./pages/Characters";
 import Welcome from "./pages/Welcome";
-import Home from "./pages/Home";
 import Default from "./pages/Default";
 import Login from "./pages/Login";
 import "./css/generales.css";
