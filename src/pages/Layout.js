@@ -40,6 +40,13 @@ const Layout = () => {
                   </NavLink>
                 </li>
               )}
+              {isAuthenticated && (
+                <li className="nav-item">
+                  <NavLink to="/us" className="nav-link">
+                    Nosotros
+                  </NavLink>
+                </li>
+              )}
               <li className="nav-item">
                 {isAuthenticated ? (
                   <NavLink to="/logout" className="nav-link">

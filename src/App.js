@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import "./css/generales.css";
 import Logout from "./pages/Logout";
 import { useAuth0 } from "@auth0/auth0-react";
+import Us from "./pages/Us";
 
 function App() {
   const { isAuthenticated } = useAuth0();
@@ -23,6 +24,7 @@ function App() {
           {isAuthenticated && (
             <Route path="/characters" element={<Characters />} />
           )}
+          {isAuthenticated && <Route path="/us" element={<Us />} />}
 
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />

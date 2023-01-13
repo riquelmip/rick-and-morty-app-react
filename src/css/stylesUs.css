@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+
+
+
+.titulo {
+    font-size: 26px;
+}
+
+
+
+.container {
+    max-width: 1750px;
+    margin: auto;
+    margin-top: 0;
+    text-align: center;
+    color: #505050;
+    line-height: 1.7;
+
+}
+
+.container h1 {
+    color: greenyellow;
+    font-family: 'Balsamiq Sans';
+    font-size: 60px;
+}
+
+.container p {
+    color: ghostwhite;
+    font-family: 'Antic', sans-serif;
+    opacity: 80%;
+}
+
+.content h4 {
+    font-family: 'Balsamiq Sans';
+    font-size: 25px;
+    color: greenyellow;
+}
+
+.content span {
+    font-family: 'Antic', sans-serif;
+    color: white;
+    font-size: 21px;
+    opacity: 80%;
+}
+
+.titulo {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 100px;
+     
+}
+
+.titulo h1 {
+    margin-bottom: 25px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 55px;
+    padding-inline: 5%;
+    
+}
+
+.box figure {
+    width: 100%;
+    height: 450px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.redes-sociales {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(46, 48, 46, 0.7);
+    height: 0%;
+    line-height: 260px;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.box:hover .redes-sociales {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 22px;
+    color: rgb(235, 234, 217);
+    transition: all 400ms ease;
+}
+
+.redes-sociales a:hover {
+    color: greenyellow;
+}
+
+.box:hover h4 {
+    color: greenyellow;
+}
+/*medias*/
+@media(min-width:500px) and (max-width:964px) {
+    .content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .container {
+        max-width: 730px;
+    }
+   
+    .box figure {
+        width: 100%;
+        height: 250px;
+    }
+    .titulo {
+        margin-top: 6%;
+    }
+
+}
+
+@media(min-width:400px) and (max-width:500px) {
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container {
+        max-width: 350px;
+    }
+
+    .box figure {
+        width: 100%;
+        height: 200px;
+    }
+    .titulo {
+        margin-top: 15%;
+    }
+}
+
+@media(min-width:960px) {
+    .titulo {
+        margin-top: 5%;
+    }
+
+    .titulo h1 {
+        margin-top: 60px;
+    }
+
+}
+@media(min-width:5px) and (max-width:399px)  {
+    .content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .box figure {
+        width: 100%;
+        height: 200px;
+        
+    }
+    .container {
+        max-width: 300px;
+    }
+
+    .box figure {
+        width: 100%;
+        height: 350px;
+    }
+    .titulo h1 {
+        max-width: 300px;
+        font-size: 32px;
+    }
+    .titulo {
+        margin-top: 25%;
+    }
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+

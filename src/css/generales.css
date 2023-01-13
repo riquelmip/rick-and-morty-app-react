@@ -1,3 +1,14 @@
 .bg-dark{
     background-color: #000!important;
 }
+.divimgerror{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgerror{
+    max-width: 100%;
+    object-fit: contain;
+}
