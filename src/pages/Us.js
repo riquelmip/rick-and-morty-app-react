@@ -20,7 +20,7 @@ const arrayUs = [
   {
     url: "/img/us/riquelmi-palacios.jpg",
     name: "Riquelmi Palacios",
-    description: "Web Developer",
+    description: "Web Developer, Egresado Ing. Sistemas",
   },
   {
     url: "/img/us/mary-mejia.jpg",
@@ -30,7 +30,8 @@ const arrayUs = [
   {
     url: "/img/us/adonay-gonzalez.jpeg",
     name: "Adonay Gonzalez",
-    description: "Web Developer",
+    description:
+      "Web Developer, Conocimiento BD MySql, Java, Ingles Intermedio",
   },
   {
     url: "/img/us/carolina-menjivar.jpeg",
@@ -45,7 +46,7 @@ const arrayUs = [
 ];
 const Us = () => {
   return (
-    <div className="container">
+    <div className="containerUs">
       <div className="titulo">
         <h1>Nosotros</h1>
         <p>
