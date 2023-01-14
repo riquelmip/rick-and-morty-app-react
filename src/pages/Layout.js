@@ -67,9 +67,9 @@ const Layout = () => {
 
       <footer className="bg-dark text-center text-lg-start text-white fixed-bottom">
         <div className="text-center p-3">
-          © 2020 Copyright&nbsp;
+          © 2022 Copyright&nbsp;
           <a className="text-white" href="http://localhost:3000">
-            Ricky & Morty App. &copy; Todos Los Derechos Reservados 2022
+            Ricky & Morty App. &copy; Todos Los Derechos Reservados
           </a>
         </div>
       </footer>
